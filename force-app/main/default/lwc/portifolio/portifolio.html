@@ -1,0 +1,30 @@
+<template>
+  <div class="slds-grid slds-gutters gradient">
+    <div class="slds-col slds-size_1-of-3">
+      <div class="slds-grid slds-grid_vertical ">
+        <div class="slds-col slds-align_absolute-center">
+          <img class="image-padding" src={avatarLarge}>
+        </div>
+        <div class="slds-col container">
+          <div class="line-bottom slds-text-heading_medium text-gray-bold">{firstName}'s Timeline</div>
+          <template for:each={portifolioItems} for:item="item">
+            <c-portifolio-item key={item.key} img={item.img} text={item.text} title={item.title}></c-portifolio-item>
+          </template>
+          <lightning-button variant="base" label="Go to Account >" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+        </div>
+      </div>
+    </div>
+    <div class="slds-col slds-size_2-of-3">
+      <div class="slds-grid slds-grid_vertical">
+        <div class="slds-col">
+          <div class="slds-text-heading_large text-large">{firstName} {lastName}</div>
+        </div>
+        <div class="slds-col container">
+          <div class="line-bottom slds-text-heading_medium text-gray-bold">My Work Experience</div>
+          <lightning-formatted-rich-text value={presentationText}>
+          </lightning-formatted-rich-text>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
