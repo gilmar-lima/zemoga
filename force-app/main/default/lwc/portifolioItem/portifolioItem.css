@@ -1,0 +1,23 @@
+div.img-box{
+    border-color: #e0e0e0;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 3px;
+    background-color: white;
+    margin: 10px;
+    max-height: 50px;
+    max-width: 60px;
+}
+
+div.title{
+    font-weight: bold;
+    color: #2a80c3;
+}
+
+div.text{
+    color: #2a80c3;
+}
+
+div.text-container{
+    margin-top: 10px;
+}

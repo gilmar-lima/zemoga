@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>presentationText</fullName>
+        <categories>portifolio</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>presentationText</shortDescription>
+        <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit pellentesque. Turpis egestas integer eget aliquet nibh praesent tristique. Aliquet risus feugiat in ante metus dictum at tempor. Malesuada proin libero nunc consequat interdum varius sit.
+&lt;br&gt;
+Morbi tristique senectus et netus et malesuada fames ac. Ac orci phasellus egestas tellus rutrum. Eu tincidunt tortor aliquam nulla facilisi. At imperdiet dui accumsan sit amet. Morbi quis commodo odio aenean sed adipiscing. Purus semper eget duis at tellus. Dignissim suspendisse in est ante in nibh. Quisque egestas diam cursus. 
+&lt;br&gt;
+Pellentesque elit ullamcorper dignissim cras tincidunt. Iaculis urna id volutpat lacus. Vulputate ut pharetra sit amet aliquam id diam maecenas.
+&lt;br&gt;
+Lacus vel facilisis volutpat est velit egestas dui id ornare. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Vitae semper quis lectust.</value>
+    </labels>
+</CustomLabels>
