@@ -5,7 +5,7 @@ developers position.
 
 ## Part 1
 
-For the first part I have created a "portifolio" LWC component that can be found
+For the first part I have created a [portifolio](https://github.com/gilmar-lima/zemoga/tree/feature/reddit/force-app/main/default/lwc/portifolio) LWC component that can be found
 in this repository.
 
 ## Part 2
@@ -24,3 +24,6 @@ update B;
 
 ## Part 3
 
+For this part I have created [RedditService](https://github.com/gilmar-lima/zemoga/blob/feature/reddit/force-app/main/default/classes/RedditService.cls) class to perform the comment posting.
+I'm assuming that the payload provided in the test is the payload which must be sent
+to the comments endpoint. I also assumed Basic authentication for Reddit API.

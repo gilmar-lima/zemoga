@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>AuthErrorMessage</fullName>
+        <categories>reddit</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AuthErrorMessage</shortDescription>
+        <value>An error has occured during authentication.</value>
+    </labels>
+    <labels>
+        <fullName>RedditCommentError</fullName>
+        <categories>reddit</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>RedditCommentError</shortDescription>
+        <value>Got error {0} posting comment!</value>
+    </labels>
+    <labels>
         <fullName>presentationText</fullName>
         <categories>portifolio</categories>
         <language>en_US</language>
