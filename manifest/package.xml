@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>RedditService</members>
+        <members>RedditServiceTest</members>
+        <members>RedditCommentDTO</members>
+        <members>AuthDTO</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -11,11 +14,32 @@
     </types>
     <types>
         <members>portifolioImages</members>
+        <members>redditComment</members>
+        <members>mockRedditToken</members>
         <name>StaticResource</name>
     </types>
     <types>
         <members>presentationText</members>
+        <members>AuthErrorMessage</members>
+        <members>RedditCommentError</members>
         <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>WebServiceConfiguration.RedditComment</members>
+        <members>WebServiceConfiguration.RedditAuth</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>WebServiceConfiguration__mdt.Endpoint__c</members>
+        <members>WebServiceConfiguration__mdt.AppId__c</members>
+        <members>WebServiceConfiguration__mdt.Password__c</members>
+        <members>WebServiceConfiguration__mdt.Secret__c</members>
+        <members>WebServiceConfiguration__mdt.Username__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>WebServiceConfiguration__mdt</members>
+        <name>CustomObject</name>
     </types>
     <version>56.0</version>
 </Package>
